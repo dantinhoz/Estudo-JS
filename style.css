@@ -51,65 +51,64 @@ body {
 
 /* SEÇÃO PROJETOS */
 .projetos {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(8, 100px);
-    grid-auto-rows: 130px;
-    justify-content: center;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(8, 100px);
+  grid-auto-rows: 130px;
+  justify-content: center;
 }
 
 .projetos > div {
-    background-color: #1a1a1a;
-    border-radius: 10px;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+}
+
+.projetos > div:hover {
+ Transform: scale(1.5);
+ cursor: pointer;
+ transition: 1s;
 }
 
 .gridProjetos1 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
 .gridProjetos2 {
-    grid-column-start: 3;
-    grid-column-end: 8;
-    grid-row-start: 1;
-    grid-row-end: 2;
+  grid-column-start: 3;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
 .gridProjetos5 {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
 }
 
 .gridProjetos6 {
-    grid-column-start: 5;
-    grid-column-end: 6;
-    grid-row-start: 2;
-    grid-row-end: 4;
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 4;
 }
 
 .gridProjetos7 {
-    grid-column-start: 6;
-    grid-column-end: 9;
-    grid-row-start: 2;
-    grid-row-end: 5;
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 2;
+  grid-row-end: 5;
 }
 
 .gridProjetos8 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 4;
-    grid-row-end: 5;
-}
-
-.gridProjetos8 {
-    grid-column-start: 2;
-    grid-column-end: 6;
-    grid-row-start: 4;
-    grid-row-end: 5;
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 5;
 }
 
 /* SEÇÃO SERVIÇOS */
@@ -181,7 +180,7 @@ body {
 }
 
 .obrigatorio {
-    color: #d72638;
+  color: #d72638;
 }
 
 .caixaNome {
@@ -200,14 +199,14 @@ body {
 }
 
 .footerContatos {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
 }
 
 .email {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .botaoEnviar {
