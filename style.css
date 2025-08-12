@@ -64,9 +64,9 @@ body {
 }
 
 .projetos > div:hover {
- Transform: scale(1.5);
- cursor: pointer;
- transition: 1s;
+  transform: scale(1.5);
+  cursor: pointer;
+  transition: 1s;
 }
 
 .gridProjetos1 {
@@ -186,16 +186,22 @@ body {
 .caixaNome {
   width: 15rem;
   height: 2.5rem;
+  color: #f4f4f4;
+  text-indent: 0.5rem;
 }
 
 .caixaEmail {
   width: 25rem;
   height: 2.5rem;
+  color: #f4f4f4;
+  text-indent: 0.5rem;
 }
 
 .caixaMensagem {
   width: 45rem;
   height: 11rem;
+  color: #f4f4f4;
+  text-indent: 0.5rem;
 }
 
 .footerContatos {
@@ -207,6 +213,7 @@ body {
 
 .email {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .botaoEnviar {
@@ -216,6 +223,7 @@ body {
   font-size: 18px;
   border-style: none;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 /* FOOTER */
