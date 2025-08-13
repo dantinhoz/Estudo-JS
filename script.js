@@ -1,11 +1,15 @@
-let nomeInput = document.getElementsByClassName("caixaNome");
-let emailInput = document.getElementsByClassName("caixaEmail");
+let nomeInput = document.getElementsByClassName("caixaNome")[0];
+let emailInput = document.getElementsByClassName("caixaEmail")[0];
 
 function alerta() {
-  if (nomeInput.length != 0 && emailInput.length != 0) {
+  if (nomeInput.value.trim() !== "" && emailInput.value.trim() !== "") {
     alert("Mensagem e contato enviados!");
   } else {
     alert("Preencha os dados obrigatórios para enviar!");
   }
-  console.log(nomeInput, emailInput)
 }
+
+let botaoMenu = document.getElementsByClassName("botaoMenu");
+let iconeLista = document.createElement("img");
+iconeLista.src = "/assets/list.svg";
+botaoMenu.appendChild(iconeLista);
