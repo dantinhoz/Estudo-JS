@@ -14,12 +14,22 @@ body {
 
 /* HEADER */
 .navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #d72638;
   max-height: 133px;
 }
 
 .logotipo {
   max-width: 306px;
+  margin-left: 2.5rem;
+}
+
+.svgMenu {
+  width: 5rem;
+  margin-right: 2.5rem;
+  cursor: pointer;
 }
 
 /* SEÇÃO INÍCIO */
@@ -242,9 +252,10 @@ body {
 .redesSociais {
   list-style: none;
   display: flex;
-  gap: 0.8rem;
+  gap: 1rem;
   padding: 0.8rem;
   padding-left: 2rem;
+  cursor: pointer;
 }
 
 .redeImagem {

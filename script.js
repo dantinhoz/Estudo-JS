@@ -1,6 +1,9 @@
+// DEFINIÇÃO DE VARIAVEIS
 let nomeInput = document.getElementsByClassName("caixaNome")[0];
 let emailInput = document.getElementsByClassName("caixaEmail")[0];
+let svgMenu = document.getElementsByClassName("svgMenu")[0];
 
+// FUNÇÃO PARA O CHECAR SE O FORMULÁRIO ESTÁ PREENCHIDO E ALERTAR O ENVIO
 function alerta() {
   if (nomeInput.value.trim() !== "" && emailInput.value.trim() !== "") {
     alert("Mensagem e contato enviados!");
@@ -9,7 +12,5 @@ function alerta() {
   }
 }
 
-let botaoMenu = document.getElementsByClassName("botaoMenu");
-let iconeLista = document.createElement("img");
-iconeLista.src = "/assets/list.svg";
-botaoMenu.appendChild(iconeLista);
+// FUNÇÃO DO MENU
+function abrirMenu() {}
