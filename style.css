@@ -12,6 +12,49 @@ body {
   color: #f4f4f4;
 }
 
+/* MENU */
+.overlayMenu {
+  width: 0;
+  background-color: #d72638;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  justify-self: end;
+  z-index: 9;
+  transition: all 0.5s;
+}
+
+.conteudoMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 5rem;
+  gap: 2rem;
+}
+
+.linkMenu {
+  font-size: 40px;
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+.svgFechar {
+  width: 6rem;
+  margin-right: 2.5rem;
+  cursor: pointer;
+}
+
+.svgMenu {
+  width: 5rem;
+  margin-right: 2.5rem;
+  cursor: pointer;
+}
+
+.botaoMenu {
+  background-color: transparent;
+  border: none;
+}
+
 /* HEADER */
 .navBar {
   display: flex;
@@ -24,12 +67,6 @@ body {
 .logotipo {
   max-width: 306px;
   margin-left: 2.5rem;
-}
-
-.svgMenu {
-  width: 5rem;
-  margin-right: 2.5rem;
-  cursor: pointer;
 }
 
 /* SEÇÃO INÍCIO */
