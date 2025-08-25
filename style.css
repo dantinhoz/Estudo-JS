@@ -21,7 +21,7 @@ body {
   position: fixed;
   justify-self: end;
   z-index: 9;
-  transition: all 0.5s;
+  transition: all 1s;
 }
 
 .conteudoMenu {
@@ -36,6 +36,10 @@ body {
   font-size: 40px;
   color: #f4f4f4;
   text-decoration: none;
+}
+
+.linkMenu:hover {
+  text-decoration: underline;
 }
 
 .svgFechar {
