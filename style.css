@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -15,11 +16,12 @@ body {
 /* MENU */
 .overlayMenu {
   width: 0;
+  height: 100%;
   background-color: #d72638;
   display: flex;
   flex-direction: column;
-  position: fixed;
   justify-self: end;
+  position: fixed;
   z-index: 9;
   transition: all 1s;
 }
