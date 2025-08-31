@@ -111,6 +111,19 @@ body {
   border-style: none;
   border-radius: 10px;
   cursor: pointer;
+  margin: 0 0 0 30rem;
+}
+
+.divSvgQuote {
+  display: flex;
+  flex-direction: column;
+}
+
+.svgQuote {
+  position: absolute;
+  z-index: -1;
+  width: 16rem;
+  margin: 1.5rem 0 0 30rem;
 }
 
 /* SEÇÃO PROJETOS */
