@@ -14,10 +14,18 @@ function alerta() {
 
 // FUNÇÃO DO MENU
 function abrirMenu() {
+  document.querySelector(".botaoMenu").style.display = "none";
+  document.querySelector(".fecharMenu").style.display = "block";
   document.getElementsByClassName("overlayMenu")[0].style.width = "25%";
-  document.getElementsByClassName("svgMenu")[0].path = "M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708";
 }
 
 function fecharMenu() {
   document.getElementsByClassName("overlayMenu")[0].style.width = "0";
+  document.querySelector(".botaoMenu").style.display = "block";
+  document.querySelector(".fecharMenu").style.display = "none";
+}
+
+//FUNÇÃO DE "CONHEÇA O NOSSO TRABALHO" QUE VAI PARA SERVIÇOS
+function irParaServicos() {
+  document.getElementById("servicos").scrollIntoView({behavior: "smooth"});
 }
